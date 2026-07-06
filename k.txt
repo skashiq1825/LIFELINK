@@ -1,0 +1,855 @@
+overview :-
+   <div class="portal-page">
+                <div class="headings">
+                    <h5>GOOD MORNING.</h5>
+                    <h3>Good morning, NAME...</h3>
+                    <h4>Your recovery score is 88% — optimized for activity.</h4>
+
+                </div>
+                <div class="activity">
+                    <div class="chart">
+                        <div class="dis">
+                            <h4>HEART RATE</h4>
+                            <div class="status">
+                                <h5>NORMAL</h5>
+                            </div>
+                        </div>
+                       <h3>73 <span>bpm</span></h3>
+                        <div class="bar">
+                             <div class="graph one"></div>
+                        </div>
+                    </div>
+                    <div class="chart">
+                         <div class="dis">
+                            <h4>BLOOD GLUCOSE</h4>
+                            <div class="status">
+                                <h5>STABLE</h5>
+                            </div>
+                        </div>
+                       <h3>94 <span>mg/dL</span></h3>
+                        <div class="bar">
+                            <div class="graph two"></div>
+                        </div>
+                    </div>
+                    <div class="chart">
+                         <div class="dis">
+                            <h4>RESTING 02</h4>
+                            <div class="status optimal">
+                                <h5>OPTIMAL</h5>
+                            </div>
+                        </div>
+                       <h3>98 <span>%</span></h3>
+                        <div class="bar">
+                             <div class="graph three"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weekchartbox">
+
+                    <div class="wcb">
+                        <div class="chartdis">
+                            <div class="ldis">
+                                <h3>Biometric Trend</h3>
+                                <h6>7-day moving average</h6>
+                            </div>
+                            <div class="rdis">
+                                <h4 class="week">WEEK</h4>
+                                <h4 class="month">MONTH</h4>
+                            </div>
+                        </div>
+                        <div id="week-chart"></div>
+                    </div>
+                    <div class="highscore">
+                        <div class="hs-up">
+                            <h5>HEALTH SCORE</h5>
+                            <h2>88</h2>
+                            <h6>Up 6 Points Fromk Last Week</h6>
+                        </div>
+                        <div class="hs-down">
+                            <div class="hs-elem">
+                                <h5>CARDIO</h5>
+                                <div class="line">
+                                    <div class="in ino"></div>
+                                </div>
+                            </div>
+                            <div class="hs-elem">
+                                <h5>SLEEP</h5>
+                                <div class="line">
+                                    <div class="in int"></div>
+
+                                </div>
+
+                            </div>
+                            <div class="hs-elem">
+                                <h5>ACTIVITY</h5>
+                                <div class="line">
+                                    <div class="in inth"></div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                 
+                 </div>
+                 <div class="foot">
+                    <h5>QUICK ACTIONS</h5>
+                    <div class="foot-crd-box">
+                        <div class="ftcrd">
+                             <div class="clogo">
+                            <i class="ri-shield-star-line"></i>
+                        </div>
+                        <div class="rcrd">
+                        <h2>Trigger SOS</h2>
+                       <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        </div>
+                        <div class="ftcrd">
+                            <div class="clogo med">
+                              <i class="ri-hospital-line"></i>
+                        </div>
+                        <div class="rcrd">
+                        <h2>Find Hospitals</h2>
+                       <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        </div>
+                        <div class="ftcrd">
+                            <div class="clogo med">
+                            <i class="ri-medicine-bottle-line"></i>
+                        </div>
+                        <div class="rcrd">
+                        <h2>Today's Meds</h2>
+                       <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        </div>
+                        <div class="ftcrd">
+                            <div class="clogo">
+                            <i class="ri-contrast-drop-2-line"></i>
+                        </div>
+                        <div class="rcrd">
+                        <h2>Blood Search</h2>
+                       <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+
+/////////
+
+Analytics :- 
+     <div class="headings">
+                    <h5>LONG-TERM TRENDS.</h5>
+                    <h3>Analytics</h3>
+                    <h4>Every biomarker, every week. Readable, actionable, beautiful.</h4>
+
+                </div>
+                <div class="analytics-bar-container">
+                    <div class="analytic-bar">
+                    <h5>Heart Rate Variability · 30 days</h5>
+                    <h2>58ms <span><i class="ri-arrow-up-line"></i> 12%</span></h2>
+                    <div class="anlbar">
+                        <div id="week-analytics-chart"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="analytic-down">
+                <div class="analytic-left">
+                    <h5>SLEEP STAGES</h5>
+                    <h2>7h 42m avg</h2>
+                    <div class="analyticlftbar">
+                        <div id="bar"></div>
+                    </div>
+                </div>
+                <div class="analytic-right">
+                    <h5>ACTIVITY STEPS</h5>
+                    <h2>9,420 daily avg</h2>
+                    <div class="analyticrightgraph">
+                        <div id="graph"></div>
+                    </div>
+                </div>
+                </div>
+
+//////
+
+health profile :-
+
+ <div class="headings">
+                    <h5>SINGLE SOURCE OF TRUTH</h5>
+                    <h3>Health Profile</h3>
+                    <h4>Your medical fingerprint, always in sync.</h4>
+
+                </div>
+                <div class="health-content">
+                    <div class="idcard">
+                        <div class="idnaam">
+                            <div class="pic">
+                                <h5>AI</h5>
+                            </div>
+                            <div class="det">
+                                <h1>NAME NAME</h1>
+                                <h5>Member since 2024 · Profile 98% complete</h5>
+                            </div>
+                        </div>
+                        <div class="idspec">
+                            <div class="specleft">
+                                <div class="specbox">
+                                    <h5>FULL NAME</h5>
+                                    <h3>Name Name Name</h3>
+                                </div> <div class="specbox">
+                                    <h5>GENDER</h5>
+                                    <h3>Male/Female</h3>
+                                </div>
+                                 <div class="specbox">
+                                    <h5>WEIGHT</h5>
+                                    <h3>62 kg</h3>
+                                </div>
+                                 <div class="specbox">
+                                    <h5>BMI</h5>
+                                    <h3>21.9(Normal)</h3>
+                                </div>
+                            </div>
+                            <div class="specright">
+                                  <div class="specbox">
+                                    <h5>D.O.B</h5>
+                                    <h3>Apr/June 1825 ,2004/6</h3>
+                                </div> <div class="specbox">
+                                    <h5>BLOOD GROUP</h5>
+                                    <h3>A+</h3>
+                                </div>
+                                 <div class="specbox">
+                                    <h5>HEIGHT</h5>
+                                    <h3>168 cm</h3>
+                                </div>
+                                 <div class="specbox">
+                                    <h5>PRIMARY PHSICIAN</h5>
+                                    <h3>NAME NAME NAME</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="condition">
+                        <div class="allergies">
+                            <div class="cap">
+                                <i class="ri-error-warning-line"></i>
+                                <h3>ALLERGIES</h3>
+                            </div>
+                            <div class="alname">
+                                <h5>Penicillin</h5>
+                                <h5>Tree nuts</h5>
+                                <h5>Latex</h5>
+                            </div>
+                        </div>
+                        <div class="con">
+                            <h3>CONDITIONS</h3>
+                            <h5>•Mild asthma (managed)</h5>
+                              <h5>•Vitamin D deficiency</h5> 
+                        </div>
+                    </div>
+                </div>
+
+//////
+
+
+hospital search :- 
+
+           <div class="headings">
+                    <h5>NETWORK</h5>
+                    <h3>Hospital Search</h3>
+                    <h4>2,400+ verified clinics. Filtered by 10km radius.</h4>
+
+                </div>
+                <div class="hospital-list">
+                    <div class="hoscard">
+                        <div class="hoscardleft">
+                            <div class="hoslogo">
+                                <h3>CC</h3>
+                            </div>
+                            <div class="hosdes">
+                                <h3>City Care Multispecialty</h3>
+                                <h5>0.8 km &nbsp;
+                                    4.8 &nbsp;
+                                    Emergency · Cardiology · Neurology</h5>
+                            </div>
+                        </div>
+                        <div class="hoscardright">
+                            <div class="hoscontact">
+                                <div class="available">
+                                    <h5>12 beds available</h5>
+                                </div>
+                                <div class="phone">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <div class="arrw">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoscard">
+                        <div class="hoscardleft">
+                            <div class="hoslogo">
+                                <h3>LM</h3>
+                            </div>
+                            <div class="hosdes">
+                                <h3>LifeLine Medical Hub</h3>
+                                <h5>2.4 km &nbsp;
+                                    4.6 &nbsp;
+                                    Specialists · ICU · Pediatrics</h5>
+                            </div>
+                        </div>
+                        <div class="hoscardright">
+                            <div class="hoscontact">
+                                <div class="available">
+                                    <h5>8 beds available</h5>
+                                </div>
+                                <div class="phone">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <div class="arrw">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoscard">
+                        <div class="hoscardleft">
+                            <div class="hoslogo">
+                                <h3>SH</h3>
+                            </div>
+                            <div class="hosdes">
+                                <h3>Sunrise Hospital & Research</h3>
+                                <h5>3.1 km &nbsp;
+                                    4.4 &nbsp;
+                                    Oncology · Orthopedics</h5>
+                            </div>
+                        </div>
+                        <div class="hoscardright">
+                            <div class="hoscontact">
+                                <div class="available">
+                                    <h5>23 beds available</h5>
+                                </div>
+                                <div class="phone">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <div class="arrw">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoscard">
+                        <div class="hoscardleft">
+                            <div class="hoslogo">
+                                <h3>AT</h3>
+                            </div>
+                            <div class="hosdes">
+                                <h3>Apex Trauma Center</h3>
+                                <h5>5.6 km &nbsp;
+                                    4.9 &nbsp;
+                                    Trauma · Burns · Emergency</h5>
+                            </div>
+                        </div>
+                        <div class="hoscardright">
+                            <div class="hoscontact">
+                                <div class="available">
+                                    <h5>4 beds available</h5>
+                                </div>
+                                <div class="phone">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <div class="arrw">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoscard">
+                        <div class="hoscardleft">
+                            <div class="hoslogo">
+                                <h3>HW</h3>
+                            </div>
+                            <div class="hosdes">
+                                <h3>Harmony Wellness Clinic</h3>
+                                <h5>6.5 km &nbsp;
+                                    4.5 &nbsp;
+                                    General · Diagnostics</h5>
+                            </div>
+                        </div>
+                        <div class="hoscardright">
+                            <div class="hoscontact">
+                                <div class="available close">
+                                    <h5>closed</h5>
+                                </div>
+                                <div class="phone">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <div class="arrw">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                //////
+
+medicine :-
+
+
+                         <div class="headings">
+                    <h5>ADHERENCE 92%</h5>
+                    <h3>Medicine Reminders</h3>
+                    <h4>Synced with your circadian rhythm and meal times.</h4>
+
+                </div>
+                <div class="medicardlist">
+                    <div class="medicard fst">
+                             <div class="time">
+                            <div class="timelogo">
+                               <i class="ri-sun-line"></i>
+                            </div>
+                            <div class="timedet">
+                                <h3>Morning</h3>
+                                <h5>08:00 AM</h5>
+                            </div>
+                        </div>
+                        <div class="medimid">
+                            <div class="icon">
+                              <i class="ri-check-line"></i>
+                            </div>
+                               <div class="timedet">
+                                <h4>Atorvastatin</h4>
+                                <h5>10mg · After breakfast</h5>
+                            </div>
+
+                        </div>
+                        <div class="medidown">
+                                    <div class="icon">
+                              <i class="ri-check-line"></i>
+                            </div>
+                               <div class="timedet">
+                                <h4>Vitamin D3</h4>
+                                <h5>1 capsule · With water</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="medicard snd">
+                         <div class="time">
+                            <div class="timelogo">
+                                <i class="ri-sun-foggy-line"></i>
+                            </div>
+                            <div class="timedet">
+                                <h3>Afternoon</h3>
+                                <h5>02:00 PM</h5>
+                            </div>
+                        </div>
+                        <div class="medimid">
+                            <div class="icon">
+                                <i class="ri-medicine-bottle-line"></i>
+                            </div>
+                               <div class="timedet">
+                                <h4>Lisinopril</h4>
+                                <h5>500mg · After dinner</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="medicard">
+                        <div class="time">
+                            <div class="timelogo">
+                                <i class="ri-moon-line"></i>
+                            </div>
+                            <div class="timedet">
+                                <h3>Night</h3>
+                                <h5>10:00 PM</h5>
+                            </div>
+                        </div>
+                        <div class="medimid">
+                            <div class="icon">
+                                <i class="ri-medicine-bottle-line"></i>
+                            </div>
+                               <div class="timedet">
+                                <h4>Metformint</h4>
+                                <h5>500mg · After dinner</h5>
+                            </div>
+
+                        </div>
+                        <div class="medidown">
+                                    <div class="icon">
+                                <i class="ri-medicine-bottle-line"></i>
+                            </div>
+                               <div class="timedet">
+                                <h4>Melatonin</h4>
+                                <h5>3mg · Before sleep</h5>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                //////
+
+
+bloodbank :- 
+                    <div class="headings">
+                    <h5>LIVE INVENTORY.</h5>
+                    <h3>Blood Bank</h3>
+                    <h4>Real-time availability across nearby blood repositories.</h4>
+
+                </div>
+                <div class="blood-card-list">
+                    <div class="bloodcard">
+                        <div class="blood-up">
+                            <h3>O+</h3>
+                            <i class="ri-drop-line"></i>
+                        </div>
+                        <div class="blood-down">
+                            <h2>240</h2>
+                            <h5>units available</h5>
+                            <div class="represent">
+                                <div class="rep"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloodcard">
+                        <div class="blood-up">
+                            <h3>O+</h3>
+                            <i class="ri-drop-line"></i>
+                        </div>
+                        <div class="blood-down">
+                            <h2>240</h2>
+                            <h5>units available</h5>
+                            <div class="represent">
+                                <div class="rep"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloodcard">
+                        <div class="blood-up">
+                            <h3>O+</h3>
+                            <i class="ri-drop-line"></i>
+                        </div>
+                        <div class="blood-down">
+                            <h2>240</h2>
+                            <h5>units available</h5>
+                            <div class="represent">
+                                <div class="rep"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloodcard">
+                        <div class="blood-up">
+                            <h3>O+</h3>
+                            <i class="ri-drop-line"></i>
+                        </div>
+                        <div class="blood-down">
+                            <h2>240</h2>
+                            <h5>units available</h5>
+                            <div class="represent">
+                                <div class="rep"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloodcard">
+                        <div class="blood-up">
+                            <h3>O+</h3>
+                            <i class="ri-drop-line"></i>
+                        </div>
+                        <div class="blood-down">
+                            <h2>240</h2>
+                            <h5>units available</h5>
+                            <div class="represent">
+                                <div class="rep"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloodcard">
+                        <div class="blood-up">
+                            <h3>O+</h3>
+                            <i class="ri-drop-line"></i>
+                        </div>
+                        <div class="blood-down">
+                            <h2>240</h2>
+                            <h5>units available</h5>
+                            <div class="represent">
+                                <div class="rep"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloodcard">
+                        <div class="blood-up">
+                            <h3>O+</h3>
+                            <i class="ri-drop-line"></i>
+                        </div>
+                        <div class="blood-down">
+                            <h2>240</h2>
+                            <h5>units available</h5>
+                            <div class="represent">
+                                <div class="rep"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloodcard">
+                        <div class="blood-up">
+                            <h3>O+</h3>
+                            <i class="ri-drop-line"></i>
+                        </div>
+                        <div class="blood-down">
+                            <h2>240</h2>
+                            <h5>units available</h5>
+                            <div class="represent">
+                                <div class="rep"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sechead">
+                    <h5>Nearby Repositories</h5>
+                </div>
+
+                <div class="blood-box">
+                    
+                    <div class="hoscard">
+                        <div class="hoscardleft">
+                            <div class="hoslogo hoslogobank">
+                               <i class="ri-drop-line"></i>
+                            </div>
+                            <div class="hosdes">
+                                <h3>Red Cross Central</h3>
+                                <h5>1.2 km &nbsp;
+                                    4.8 &nbsp;
+                                    All groups stocked</h5>
+                            </div>
+                        </div>
+                        <div class="hoscardright">
+                           <div class="send">
+                                <h3>Request Unit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoscard">
+                        <div class="hoscardleft">
+                            <div class="hoslogo hoslogobank">
+                                <i class="ri-drop-line"></i>
+                            </div>
+                            <div class="hosdes">
+                                <h3>MetroLife Blood Bank</h3>
+                                <h5>3.8 km &nbsp;
+                                    4.8 &nbsp;
+                                    Low on O-</h5>
+                            </div>
+                        </div>
+                        <div class="hoscardright">
+                             <div class="send">
+                                <h3>Request Unit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoscard">
+                        <div class="hoscardleft">
+                            <div class="hoslogo hoslogobank">
+                               <i class="ri-drop-line"></i>
+                            </div>
+                            <div class="hosdes">
+                                <h3>Apollo Plasma Center</h3>
+                                <h5>5.5 km &nbsp;
+                                    4.8 &nbsp;
+                                    Plasma & platelets</h5>
+                            </div>
+                        </div>
+                        <div class="hoscardright">
+                            <div class="send">
+                                <h3>Request Unit</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+///////////////////////
+
+settings :- 
+
+   <div class="headings">
+                    <h5>PREFERENCES.</h5>
+                    <h3>Settings</h3>
+                    <h4>Tune the experience to your rhythm.</h4>
+
+                </div>
+
+                <div class="setting-box">
+                    <div class="settingline">
+                        <div class="settingline-left">
+                            <h3>Notifications</h3>
+                            <h5>Choose what reaches you and when.</h5>
+                        </div>
+                      
+                    </div>
+
+                        <div class="settingline">
+                        <div class="settingline-left">
+                            <h3>Push notifications</h3>
+                            <h5>Reminders, dose alerts, recovery scores.</h5>
+                        </div>
+                        <div class="settingline-right">
+                            <div class="on">
+                                <div class="onchild"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="settingline">
+                        <div class="settingline-left">
+                            <h3>Emergency alerts</h3>
+                            <h5>Always-on. Critical only.</h5>
+                        </div>
+                        <div class="settingline-right">
+                            <div class="on">
+                                <div class="onchild"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="settingline">
+                        <div class="settingline-left">
+                            <h3>Weekly health report</h3>
+                            <h5>A Sunday digest of your trends.</h5>
+                        </div>
+                        <div class="settingline-right">
+                            <div class="on">
+                                <div class="onchild"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+ ////////////
+
+ medical reports:-
+             
+             
+   <div class="headings">
+                    <h5>ARCHIVE</h5>
+                    <h3>Medical Reports</h3>
+                    <h4>Every report, indexed and ready to share.</h4>
+
+                </div>
+
+                <div class="report-card-list">
+                    <div class="repcard">
+                        <div class="repcardup">
+                            <div class="replogo repone">
+                                <i class="ri-file-text-line"></i>
+                            </div>
+                            <h3>Complete Blood Count</h3>
+                            <h5>Metropolis Labs · Oct 24, 2026
+                            </h5>
+                        </div>
+                        <div class="repcarddown">
+                            <h5>PDF · 2.4 MB</h5>
+                            <div class="download">
+                                <i class="ri-download-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="repcard">
+                        <div class="repcardup">
+                            <div class="replogo reptwo">
+                                <i class="ri-file-text-line"></i>
+                            </div>
+                            <h3>Lipid Profile</h3>
+                            <h5>Dr. Lal PathLabs · Oct 12, 2026
+                            </h5>
+                        </div>
+                        <div class="repcarddown">
+                            <h5>PDF · 2.4 MB</h5>
+                            <div class="download">
+                                <i class="ri-download-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="repcard">
+                        <div class="repcardup">
+                            <div class="replogo repthree">
+                                <i class="ri-file-text-line"></i>
+                            </div>
+                            <h3>Chest X-Ray</h3>
+                            <h5>Metropolis Labs · Oct 24, 2026
+                            </h5>
+                        </div>
+                        <div class="repcarddown">
+                            <h5>PDF · 2.4 MB</h5>
+                            <div class="download">
+                                <i class="ri-download-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="repcard">
+                        <div class="repcardup">
+                            <div class="replogo repfour">
+                                <i class="ri-file-text-line"></i>
+                            </div>
+                            <h3>Thyroid Panel</h3>
+                            <h5>Metropolis Labs · Oct 24, 2026
+                            </h5>
+                        </div>
+                        <div class="repcarddown">
+                            <h5>PDF · 2.4 MB</h5>
+                            <div class="download">
+                                <i class="ri-download-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="repcard">
+                        <div class="repcardup">
+                            <div class="replogo repfive">
+                                <i class="ri-file-text-line"></i>
+                            </div>
+                            <h3>MRI Brain Scan</h3>
+                            <h5>Metropolis Labs · Oct 24, 2026
+                            </h5>
+                        </div>
+                        <div class="repcarddown">
+                            <h5>PDF · 2.4 MB</h5>
+                            <div class="download">
+                                <i class="ri-download-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="repcard">
+                        <div class="repcardup">
+                            <div class="replogo repsix">
+                                <i class="ri-file-text-line"></i>
+                            </div>
+                            <h3>ECG Resting</h3>
+                            <h5>Metropolis Labs · Oct 24, 2026
+                            </h5>
+                        </div>
+                        <div class="repcarddown">
+                            <h5>PDF · 2.4 MB</h5>
+                            <div class="download">
+                                <i class="ri-download-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rep-upload">
+                    <h2>+</h2>
+                    <h3>Upload Report</h3>
+                </div>
+
+
+///////////////
+
+
+
+

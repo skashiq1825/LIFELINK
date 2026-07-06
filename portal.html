@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="portal.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+     <div id="pointer">
+
+    </div>
+    <div id="main">
+        <div class="side-bar">
+            <div class="container">
+                <div class="ll">
+                    <div class="limg">
+                        <i class="ri-service-line"></i>
+                    </div>
+                    <h3>LIFE<span>LINK</span></h3>
+                </div>
+                <div class="over">
+                    <h4>OVERVIEW</h4>
+                    <div class="box1">
+                        <div class="box ov">
+                            <i class="ri-instance-line"></i>
+                            <h5>Overview</h5>
+                        </div>
+                        <div class="box an">
+                            <i class="ri-bar-chart-grouped-line"></i>
+                            <h5>Analytics</h5>
+
+                        </div>
+                        <div class="box hp">
+                            <i class="ri-heart-pulse-line"></i>
+                            <h5>Health Profile</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="care">
+                    <h4>CARE</h4>
+                    <div class="box2">
+                        <div class="box hs">
+                            <i class="ri-hospital-line"></i>
+                            <h5>Hospital Search</h5>
+
+                        </div>
+                        <div class="box bb">
+                            <i class="ri-contrast-drop-2-line"></i>
+                            <h5>Blood Bank</h5>
+
+                        </div>
+                        <div class="box m">
+                            <i class="ri-medicine-bottle-line"></i>
+                            <h5>Medicines</h5>
+
+                        </div>
+                        <div class="box mr">
+                            <i class="ri-file-chart-line"></i>
+                            <h5>Medical Report</h5>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="intelligence">
+                    <h4>INTELLIGENCE</h4>
+                    <div class="box3">
+                        <div class="box aa">
+                            <i class="ri-robot-3-line"></i>
+                            <h5>AI Assitant</h5>
+
+                        </div>
+                        <div class="box s">
+                            <i class="ri-settings-5-line"></i>
+                            <h5>Settings</h5>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="sos">
+                <i class="ri-shield-cross-line"></i>
+                <h4>EMERGENCY SOS</h4>
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="nav">
+                <div class="nav-left">
+                    <div class="search">
+                        <i class="ri-search-line"></i>
+                        <h4>Search vitals, reports, hospitals...
+                        </h4>
+                    </div>
+                    <div class="notification">
+                        <i class="ri-notification-2-line"></i>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <h4>Michael Carter</h4>
+                    <div class="dp">
+                        <h2>M</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="portal-page">
+
+              <div class="headings">
+                    <h5>GOOD MORNING.</h5>
+                    <h3>Good morning, Michael...</h3>
+                    <h4>Your recovery score is 88% — optimized for activity.</h4>
+
+                </div>
+                <div class="activity">
+                    <div class="chart">
+                        <div class="dis">
+                            <h4>HEART RATE</h4>
+                            <div class="status">
+                                <h5>NORMAL</h5>
+                            </div>
+                        </div>
+                       <h3>73 <span>bpm</span></h3>
+                        <div class="bar">
+                             <div class="graph one"></div>
+                        </div>
+                    </div>
+                    <div class="chart">
+                         <div class="dis">
+                            <h4>BLOOD GLUCOSE</h4>
+                            <div class="status">
+                                <h5>STABLE</h5>
+                            </div>
+                        </div>
+                       <h3>94 <span>mg/dL</span></h3>
+                        <div class="bar">
+                            <div class="graph two"></div>
+                        </div>
+                    </div>
+                    <div class="chart">
+                         <div class="dis">
+                            <h4>RESTING 02</h4>
+                            <div class="status optimal">
+                                <h5>OPTIMAL</h5>
+                            </div>
+                        </div>
+                       <h3>98 <span>%</span></h3>
+                        <div class="bar">
+                             <div class="graph three"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weekchartbox">
+
+                    <div class="wcb">
+                        <div class="chartdis">
+                            <div class="ldis">
+                                <h3>Biometric Trend</h3>
+                                <h6>7-day moving average</h6>
+                            </div>
+                            <div class="rdis">
+                                <h4 class="week">WEEK</h4>
+                                <h4 class="month">MONTH</h4>
+                            </div>
+                        </div>
+                        <div id="week-chart"></div>
+                    </div>
+                    <div class="highscore">
+                        <div class="hs-up">
+                            <h5>HEALTH SCORE</h5>
+                            <h2>88</h2>
+                            <h6>Up 6 Points Fromk Last Week</h6>
+                        </div>
+                        <div class="hs-down">
+                            <div class="hs-elem">
+                                <h5>CARDIO</h5>
+                                <div class="line">
+                                    <div class="in ino"></div>
+                                </div>
+                            </div>
+                            <div class="hs-elem">
+                                <h5>SLEEP</h5>
+                                <div class="line">
+                                    <div class="in int"></div>
+
+                                </div>
+
+                            </div>
+                            <div class="hs-elem">
+                                <h5>ACTIVITY</h5>
+                                <div class="line">
+                                    <div class="in inth"></div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                 
+                 </div>
+                 <div class="foot">
+                    <h5>QUICK ACTIONS</h5>
+                    <div class="foot-crd-box">
+                        <div class="ftcrd">
+                             <div class="clogo">
+                            <i class="ri-shield-star-line"></i>
+                        </div>
+                        <div class="rcrd">
+                        <h2>Trigger SOS</h2>
+                       <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        </div>
+                        <div class="ftcrd">
+                            <div class="clogo med">
+                              <i class="ri-hospital-line"></i>
+                        </div>
+                        <div class="rcrd">
+                        <h2>Find Hospitals</h2>
+                       <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        </div>
+                        <div class="ftcrd">
+                            <div class="clogo med">
+                            <i class="ri-medicine-bottle-line"></i>
+                        </div>
+                        <div class="rcrd">
+                        <h2>Today's Meds</h2>
+                       <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        </div>
+                        <div class="ftcrd">
+                            <div class="clogo">
+                            <i class="ri-contrast-drop-2-line"></i>
+                        </div>
+                        <div class="rcrd">
+                        <h2>Blood Search</h2>
+                       <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        </div>
+                    </div>
+
+                 </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="portal.js"></script>
+</body>
+
+</html>
