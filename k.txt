@@ -848,7 +848,7 @@ settings :-
                 </div>
 
 
-///////////////
+/////////////// these codes are here because i have copied them to portal js after making it in dynamic html then manupulate it throughh js on click
 
 
 

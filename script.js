@@ -171,3 +171,13 @@ main.addEventListener("mouseleave",function(dets){
   pbtn.addEventListener("click",function(){
      window.location.href = "login.html"
   })
+
+
+  if (window.innerWidth < 768) {
+  // Mobile → Locomotive OFF
+} else {
+  const locoScroll = new LocomotiveScroll({
+    el: document.querySelector("#main"),
+    smooth: true
+  });
+}
