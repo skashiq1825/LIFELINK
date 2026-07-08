@@ -1375,3 +1375,158 @@ main.addEventListener("mouseleave",function(dets){
        opacity:0                                  
     })
   })
+
+
+var sidesos = document.querySelector("#sos");
+sidesos.addEventListener("click", function () {
+  page.innerHTML = `     <div class="headings">
+                    <h5>CRITICAL</h5>
+                    <h3>Emergency SOS.</h3>
+                    <h4>One tap dispatches your location, vitals and contacts to the nearest verified responder.</h4>
+
+                </div>
+
+                <div class="critical-box">
+                    <div class="critical-btn">
+                        <div class="emergency">
+                            <i class="ri-error-warning-line"></i>
+                            <h3>HOLD TO SEND</h3>
+                        </div>
+                        <h5>Your location and medical profile will be shared instantly with paramedics and your emergency contacts.</h5>
+                        <div class="concancel">
+                           <h5>CANCEL</h5>
+                        </div>
+                       
+                    </div>
+                    <div class="critical-des">
+                        <div class="critical-contact">
+                            <h5>EMERGENCY CONTACTS</h5>
+                            <div class="cri-con-box">
+                            
+                                <div class="conbox">
+                                  <div class="conleft">
+                                        <div class="conlogo">
+                                            <i class="ri-user-3-line"></i>
+                                        </div>
+                                        <div class="condet">
+                                            <h3>Maya Rivera</h3>
+                                            <h5>Family — Spouse</h5>
+                                        </div>
+                                    </div>
+                                    <div class="conright">
+                                        <div class="conphone">
+                                            <i class="ri-phone-line"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="conbox">
+                               <div class="conleft">
+                                        <div class="conlogo">
+                                            <i class="ri-user-3-line"></i>
+                                        </div>
+                                        <div class="condet">
+                                            <h3>City Care</h3>
+                                            <h5>24/7 Hotline</h5>
+                                        </div>
+                                    </div>
+                                    <div class="conright">
+                                        <div class="conphone">
+                                            <i class="ri-phone-line"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="conbox">
+                                    <div class="conleft">
+                                        <div class="conlogo">
+                                            <i class="ri-user-3-line"></i>
+                                        </div>
+                                        <div class="condet">
+                                            <h3>ADD CONTACT</h3>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="conright">
+                                        <div class="conphone">
+                                           <h3 style="color:rgb(255, 255, 255)">+</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="critical-location">
+                            
+                                <h5><i class="ri-map-pin-line"></i> CURRENT LOCATION</h5>
+                                <h5>19.0760° &nbsp; N,  &nbsp; 72.8777°  &nbsp; E</h5>
+                                <h5>Bandra West, Mumbai · Accuracy ±4m</h5>
+
+                            
+                        </div>
+                    </div>
+                </div>
+              
+    `
+
+  
+var criticalbtn = document.querySelector(".critical-btn");
+
+criticalbtn.addEventListener("click", function (e) {
+
+    if (e.target.closest(".emergency")) {
+
+        criticalbtn.innerHTML = `
+            <div class="emergency">
+                <i class="ri-error-warning-line"></i>
+                <h3>DISPATCHED</h3>
+            </div>
+
+            <h5>Ambulance #A-241 en route. ETA 4 minutes. Stay calm.</h5>
+
+            <div class="concancel" style="display:flex;">
+                <h5>CANCEL</h5>
+            </div>
+        `;
+    }
+
+   
+    if (e.target.closest(".concancel")) {
+
+        console.log("hello");
+
+        criticalbtn.innerHTML = `
+            <div class="emergency">
+                <i class="ri-error-warning-line"></i>
+                <h3>HOLD TO SEND</h3>
+            </div>
+
+            <h5>Your location and medical profile will be shared instantly with paramedics and your emergency contacts.</h5>
+        `;
+    }
+
+});
+
+
+  ov.style.color="#9d9d9df7";
+  health.style.color="#9d9d9df7";
+  ov.style.backgroundColor = "transparent ";
+  health.style.backgroundColor = "transparent ";
+   hospital.style.color="#9d9d9df7";
+hospital.style.backgroundColor = "transparent ";
+analytic.style.color="#9d9d9df7";
+analytic.style.backgroundColor = "transparent ";
+medicine.style.color="#9d9d9df7";
+medicine.style.backgroundColor = "transparent ";
+  bloodbank.style.backgroundColor = "transparent";
+  bloodbank.style.color = "#9d9d9df7 ";
+
+setting.style.backgroundColor = "transparent";
+ setting.style.color = "#9d9d9df7  ";
+
+report.style.backgroundColor = "transparent";
+report.style.color = "#9d9d9df7 ";
+
+
+
+
+
+})
+

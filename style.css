@@ -31,7 +31,8 @@ body {
     height: 320vh;
     background-color: #FBFFFD;
     position: relative;
-    opacity: 0;
+    opacity: 1;
+    
 
 }
 #load {
@@ -278,7 +279,34 @@ display: flex;
     align-items: center;
     justify-content: center;                                                                                    
     border-radius: 0.8vw;
+    font-family: montserrat;
+    gap: 0.5vw;
 
+}
+
+    .logo h3{
+    font-size: 1vw;
+    font-weight: 650;
+    color: rgb(19, 19, 19);
+}
+.logo span{
+    font-size: 1vw;
+    font-weight: 450;
+    color: rgb(85, 85, 85);
+}
+.lg{
+    width: 2.3vw;
+    height: 2.3vw;
+    background-color: #055550;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lg i{
+      color: #fff;
+    font-size: 1.4vw;
+    font-weight: 400;
 }
 .platform:hover{
     color: rgb(33, 33, 33);
@@ -666,10 +694,11 @@ display: flex;
 }
 .p2-down h4{
     font-family: montserrat;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #a5a5a5;
-    font-weight: 550;
+    font-weight: 600;
     width: 60%;
+    text-align: center;
     text-align: center;
 }
 .p2-btn{
@@ -694,4 +723,51 @@ display: flex;
     background-color: #ecf2f8;
     color: #0f0f0f;
     border: 1px solid rgb(48, 48, 48);
+}
+.sign{
+    width: 98%;
+    height: 20vh;
+     background-color: #FBFFFD;
+    border-radius: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin-left: calc(1.5% + 2px);
+    padding: 0vw 1.4vw;
+    margin-top: 0.4vw;
+    font-family: montserrat;
+}
+.sign h5{
+    font-size: 0.8vw;
+    color: #c3c1c1;
+    font-weight: 650;
+
+}
+.signaturebox{
+    width:20vw;
+    height: 100%;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.signaturebox h5{
+    font-size: 1.1vw;
+    color: #c3c1c1;
+    font-weight: 700;
+    text-align: center;
+}
+.signature{
+    width: 7vw;
+    height: 5vh;
+    background-image: url(./assets/sign.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 2%;
+   left: 50%;
+   transform: translate(-50%,0%);
+
 }

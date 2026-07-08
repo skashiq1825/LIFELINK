@@ -1652,7 +1652,8 @@ body {
     align-items: center;
     justify-content: center;
 }
-.replogo i{
+
+.replogo i {
     font-size: 1.4vw;
     color: #383838da;
 }
@@ -1680,14 +1681,14 @@ body {
 
 }
 
-#pointer{
-    width:12px;
+#pointer {
+    width: 12px;
     height: 12px;
     background-color: #00A084;
     position: absolute;
     border-radius: 50%;
     z-index: 20;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     pointer-events: none;
 }
 
@@ -1729,18 +1730,22 @@ body {
 .repsix {
     background-color: #FFF1F2;
 }
-.rep-upload:hover h3{
+
+.rep-upload:hover h3 {
     color: #00BC7D;
 }
-.rep-upload:hover h2{
+
+.rep-upload:hover h2 {
     color: #039665;
 }
+
 .rep-upload:hover {
     border: 2px dotted #00BC7D;
-    background-color: #FFFFFF ;
-    
+    background-color: #FFFFFF;
+
 }
-.rep-upload{
+
+.rep-upload {
     width: 25vw;
     height: 25vh;
     background-color: #fafafa;
@@ -1756,7 +1761,8 @@ body {
     border: 2px dotted #838383;
     cursor: pointer;
 }
-.rep-upload h3{
+
+.rep-upload h3 {
     font-size: 1.1vw;
     color: gray;
     font-family: montserrat;
@@ -1764,34 +1770,297 @@ body {
 
 }
 
-.ominus{
-  background-color: red;
-  width: 32%;
+.ominus {
+    background-color: red;
+    width: 32%;
 }
-.aplus{
+
+.aplus {
     background-color: green;
-   width: 75%;
+    width: 75%;
 }
 
-.aminus{
-  background-color: red;
-  width: 23%;
+.aminus {
+    background-color: red;
+    width: 23%;
 
 }
-.bplus{
-   background-color: green;
-   width: 80%;
+
+.bplus {
+    background-color: green;
+    width: 80%;
 }
-.bminus{
-background-color: red;
-  width: 30%;
+
+.bminus {
+    background-color: red;
+    width: 30%;
 }
-.abplus{
-background-color: #FE9A00;
-  width: 40%;
+
+.abplus {
+    background-color: #FE9A00;
+    width: 40%;
 
 }
-.abminus{
-background-color: red;
-  width: 12%;
+
+.abminus {
+    background-color: red;
+    width: 12%;
+}
+
+.critical-box {
+    width: 100%;
+    height: 65vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 1vw;
+    gap: 2vw;
+
+}
+
+.critical-btn {
+    width: 50%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 1.5vw;
+    border: 1.5px solid rgba(223, 221, 221, 0.716);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+    gap: 1.5vw;
+
+
+}
+
+.critical-des {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(22, 183, 27); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    padding: 0vw 1vw;
+
+
+}
+
+.critical-contact {
+    width: 100%;
+    height: 70%;
+    background-color: #FFFFFF;
+    border-radius: 1.5vw;
+    border: 1.5px solid rgba(223, 221, 221, 0.716);
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.3vw;
+
+
+}
+
+.critical-location {
+    width: 100%;
+    height: 30%;
+    background-color: #FFFFFF;
+    border-radius: 1.5vw;
+    border: 1.5px solid rgba(223, 221, 221, 0.716);
+    padding: 1vw 1vw;
+    font-family: montserrat;
+    font-size: 1.1vw;
+    color: #777777;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1vw;
+
+
+
+}
+
+.emergency {
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -1px 1px 20px rgba(207, 33, 30, 0.545);
+    transition: all ease 0.4s;
+    cursor: pointer;
+
+}
+
+.emergency:hover {
+    scale: 1.1;
+}
+
+.emergency h3 {
+    font-family: montserrat;
+    color: #fff;
+    font-size: 1.3vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.emergency i {
+    font-family: montserrat;
+    color: #fff;
+    font-size: 1.7vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+.critical-btn h5 {
+    font-family: montserrat;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #5a5a5a;
+    width: 80%;
+    text-align: center;
+}
+
+.critical-contact h5 {
+    font-family: montserrat;
+    font-size: 0.85vw;
+    font-weight: 650;
+    color: #7a7979;
+    width: 80%;
+
+}
+
+.cri-con-box {
+    width: 100%;
+    height: 80%;
+    /* background-color: #055550; */
+    padding: 0vw 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.conbox {
+    width: 100%;
+    height: 7vh;
+    /* background-color: #E7000B; */
+    border-radius: 0.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conleft {
+    width: 50%;
+    height: 100%;
+    /* background-color: #0a4788; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vw;
+    padding: 0vw 1vw;
+
+}
+
+.conright {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0vw 1vw;
+
+    /* background-color: #0a4788; */
+}
+
+.conlogo {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEFBF8;
+
+
+}
+.conlogo i{
+    font-size: 1.5vw;
+    color: #00A084;
+}
+.condet{
+    width: 75%;
+    height: 100%;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0vw 0.3vw;
+}
+.condet h5{
+     font-family: montserrat;
+    font-size: 0.8vw;
+    font-weight: 450;
+    color: #a19f9f;
+}
+.condet h3{
+     font-family: montserrat;
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: #181818;
+}
+.conphone {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00A084;
+ 
+
+
+}
+.conphone i{
+    font-size: 1.5vw;
+    color: #ffffff;
+}
+.conbox:hover{
+    background-color: #e0f8f0;
+}
+.concancel{
+    width: 7vw;
+    height: 6vh;
+    background-color: black;
+    
+    font-family: montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8vw;
+    cursor: pointer;
+    display: none;
+
+}
+.concancel h5{
+    font-size: 0.9vw;
+    font-weight: 650;
+    color: #fff;
+    text-align: center;
+}
+.concancel:hover{
+    background-color: #454444;
+   
 }
