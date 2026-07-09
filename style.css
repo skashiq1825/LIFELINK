@@ -464,7 +464,7 @@ body {
     border: 1px solid rgb(25, 25, 25);
     transition: all ease 0.3s;
     cursor: crosshair;
-    margin-top: 2vw;
+    margin-top: 14vw;
 }
 
 .btn:hover {
