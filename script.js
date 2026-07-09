@@ -94,7 +94,7 @@ loading.to("#load",{
 
 })
 loading.to("#load-white",{
-  scale:110,
+  scale:120,
   duration:1.8,
   delay:0.1,
   display:"flex",
