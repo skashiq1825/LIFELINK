@@ -506,6 +506,12 @@ body {
 .banner-cover h1 {
     font-weight: 500;
 }
+.banner-cover h5 {
+    font-weight: 550;
+   font-size: 1vw ;
+   color: #a5a5a5;
+   margin-bottom: 0.3vw;
+}
 
 #page2 {
     width: 98%;
@@ -860,12 +866,10 @@ body {
     }
 
     #main {
-        height: 392vh;
+        height: 442vh;
     }
 
-    .banner {
-        display: none;
-    }
+    
 
     #nav {
         width: 100%;
@@ -895,16 +899,16 @@ body {
         /* opacity: 0; */
         display: flex;
         gap: 3px;
-        background-color: #009966;
+        background-color:  #FBFFFD;
         align-items: center;
-        border-radius: 0.8vw;
+        border-radius: 2.8vw;
     }
 
     .middle {
         width: 20%;
         height: 100%;
         /* opacity: 0; */
-        border-radius: 0.7vw;
+        border-radius: 2.8vw;
 
         background-color: #FBFFFD;
 
@@ -922,7 +926,7 @@ body {
         justify-content: center;
         font-family: montserrat;
         font-size: 3vw;
-        border-radius: 0.8vw;
+        border-radius: 2.8vw;
 
     }
 
@@ -933,7 +937,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 0.8vw;
+        border-radius: 2.8vw;
         font-family: montserrat;
         gap: 0.5vw;
 
@@ -973,17 +977,17 @@ body {
 
     #page1 {
         width: 100%;
-        height: 90vh;
+        height: 140vh;
         background-color: #FBFFFD;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         opacity: 0;
-        border-radius: 0.8vw;
+        border-radius: 2.8vw;
         gap: 3vw;
         margin-left: 0vw;
-
+        padding: 20vw 0vw;
         z-index: 50;
 
     }
@@ -1000,7 +1004,7 @@ body {
         font-family: montserrat;
         font-size: 2.8vw;
         color: #00A084;
-        margin-bottom: 1vw;
+        margin-bottom: 6vw;
     }
 
     .p1txt h4 {
@@ -1057,7 +1061,7 @@ body {
         background-color: #FBFFFD;
 
         opacity: 0;
-        border-radius: 0.8vw;
+        border-radius: 2.8vw;
         gap: 1vw;
         margin-left: 0vw;
 
@@ -1347,7 +1351,7 @@ body {
         width: 100%;
         height: 15vh;
         background-color: #FBFFFD;
-        border-radius: 0.8vw;
+        border-radius: 2.8vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1463,4 +1467,48 @@ body {
 
 
 }
+.banner {
+    width: 80vw;
+    height: 50vh;
+    background-color: #FBFFFD;
+    position: absolute;
+    top: 90vh;
+    right: 50%;
+    padding: 0.2vw;
+    border-radius: 6.6vw;
+    opacity: 0;
+    transform: translate(50%,0%);
+    overflow: hidden;
+
+}
+
+.banner-cover {
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/Gemini_Generated_Image_gt9752gt9752gt97.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 5vw;
+    font-family: montserrat;
+    font-size: 2.75vw;
+    color: #e6e6e6;
+}
+
+.banner-cover h1 {
+    font-weight: 650;
+    width: 80%;
+}
+.banner-cover h5 {
+    font-weight: 550;
+   font-size: 3vw ;
+   color: #a5a5a5;
+   margin-bottom: 2vw;
+}
+
 }
