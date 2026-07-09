@@ -30,7 +30,7 @@ body {
     width: 100vw; 
     height: 320vh;
     /* background-color: #FBFFFD; */
-    background-color: #C2E9E7;
+    background-color: #FBFFFD;
     position: relative;
     opacity: 1;
     
@@ -146,7 +146,7 @@ body {
     width: 100%;
     height: 8vh;
     background-color: #C2E9E7;
-  opacity: 1;
+  opacity: 0;
   display: flex;
     position: relative;
   gap: 2px;
@@ -359,7 +359,7 @@ display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 1;
+    opacity: 0;
     border-radius: 0.8vw;
     gap: 1vw;
     margin-left: calc(1.5% + 2px);
@@ -470,7 +470,7 @@ display: flex;
     height: 220vh;
     background-color: #FBFFFD;
     
-    opacity: 1;
+    opacity: 0;
     border-radius: 0.8vw;
     gap: 1vw;
     margin-left: calc(1.5% + 2px);
@@ -778,7 +778,7 @@ display: flex;
     display: none;
   }
   #main{
-    height: 420vh;
+    height:392vh;
   }
   .banner{
     display: none;
@@ -797,10 +797,7 @@ display: flex;
     display: none;
 
   }
-  .middle{
-    /* display: none; */
-
-  }
+ 
   .about{
     display: none;
 
@@ -891,7 +888,7 @@ display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 1;
+    opacity: 0;
     border-radius: 0.8vw;
     gap: 3vw;
     margin-left: 0vw;
@@ -959,10 +956,10 @@ display: flex;
 
 #page2{
     width: 100%;
-    height: 300vh;
+    height: 279vh;
     background-color: #FBFFFD;
     
-    opacity: 1;
+    opacity: 0;
     border-radius: 0.8vw;
     gap: 1vw;
     margin-left: 0vw;
@@ -976,8 +973,8 @@ display: flex;
 
 }
 .p2-up{
-    width: 80%;
-    height: 25vh;
+    width: 98%;
+    height: 10vh;
     background-color: #E0E5EB;
     border-radius: 2vw;
     padding: 0vw 3vw 0vw 3vw;
@@ -990,14 +987,14 @@ display: flex;
 }
 .p2-up h1{
     font-family: montserrat;
-    font-size: 2.5vw;
+    font-size: 4.5vw;
     /* font-weight: 600; */
     color: rgb(14, 14, 14);
     margin-bottom: 0.5vw;
 }
 .p2-up h4{
     font-family: montserrat;
-    font-size: 0.9vw;
+    font-size: 1.9vw;
     font-weight: 600;
     color: rgb(167, 167, 167);
     margin-bottom: 0.5vw;
@@ -1054,12 +1051,12 @@ display: flex;
 }
 .p2-mid{
     width: 90%;
-    height: 100vh;
+    height: 180vh;
     /* background-color: #d6391e; */
 }
 .midhead{
     width: 100%;
-    height: 18vh;
+    height: 20vh;
     /* background-color: #ffffff; */
     display: flex;
     flex-direction: column;
@@ -1067,25 +1064,25 @@ display: flex;
     justify-content: flex-start;
     padding: 1vw 0vw 0vw 0vw ;
     font-family: montserrat;
-    gap: 1vw;
+    gap: 3vw;
 }
 .midhead h5{
-    font-size: 0.8vw;
+    font-size: 2.8vw;
     color: #00A084;
     letter-spacing: 0.5px;
     font-weight: 650;
 }
 .midhead h3{
-    font-size: 3.5vw;
+    font-size: 10.5vw;
     color: #080808;
-    width: 80%;
+    width: 90%;
     font-weight: 650;
-    line-height: 3.1vw;
+    line-height: 9vw;
 }
 .card{
     width: 100%;
     height: 152vh;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -1094,7 +1091,7 @@ display: flex;
     font-family: montserrat;
 }
 .c{
-    background-color: #faffff;
+    background-color: #faffff00;
     border-radius: 1.7vw;
     padding: 8vw;
     display: flex;
@@ -1163,13 +1160,13 @@ display: flex;
 }
 .p2-down{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
    /* background-color: rgba(255, 0, 0, 0.267); */
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 2.5vw;
+    gap: 2vw;
     margin-top: 1vw;
     position: relative;
     padding: 2vw;
@@ -1177,35 +1174,39 @@ display: flex;
 }
 .p2-down h1{
     font-family: montserrat;
-    font-size: 4vw;
+    font-size: 12.5vw;
     font-weight: 650;
+    text-align: center;
+    line-height: 12vw;
+    width: 70%;
 }
 .p2-down span{
     color: #009966;
     font-family: exp;
-    font-size: 6.5vw;
+    font-size: 18.4vw;
 }
 .p2-down h4{
     font-family: montserrat;
-    font-size: 1.3vw;
+    font-size: 4vw;
     color: #a5a5a5;
-    font-weight: 600;
-    width: 60%;
+    font-weight: 500;
+    width: 90%;
     text-align: center;
     text-align: center;
+    margin-top: 9vw;
 }
 .p2-btn{
-      width: 10vw;
+      width: 35vw;
     /* opacity: 0; */                                             
     position: absolute;
-   height: 7vh;
+   height: 6vh;
     background-color: #1d1d1d;
     color: #fafbfc;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: montserrat;
-    font-size: 0.8vw;
+    font-size: 2.8vw;
     border-radius: 1vw;
     bottom: 15%;
     left: 50%;
@@ -1213,5 +1214,52 @@ display: flex;
     cursor: pointer;
 }
 
+.sign{
+    width: 100%;
+    height: 15vh;
+     background-color: #FBFFFD;
+    border-radius: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin-left: 0vw;
+    padding: 0vw 1.4vw;
+    margin-top: 0.4vw;
+    font-family: montserrat;
+}
+.sign h5{
+    font-size: 1.5vw;
+    color: #c3c1c1;
+    font-weight: 650;
+
+}
+.signaturebox{
+    width:40vw;
+    height: 100%;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.signaturebox h5{
+    font-size: 1.7vw;
+    color: #c3c1c1;
+    font-weight: 700;
+    text-align: center;
+}
+.signature{
+    width: 10vw;
+    height: 5vh;
+    background-image: url(./assets/sign.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 6%;
+   left: 50%;
+   transform: translate(-50%,0%);
+
+}
 
 }
