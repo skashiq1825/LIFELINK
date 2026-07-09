@@ -185,9 +185,19 @@ pbtn.addEventListener("click", function () {
 
 
 
+document.body.style.overflow = "hidden";
+document.documentElement.style.overflow = "hidden";
 
 locoScroll.stop();
 
 setTimeout(() => {
+    document.body.style.overflow = "";
+    document.documentElement.style.overflow = "";
+
     locoScroll.start();
 }, 11000);
+// locoScroll.stop();
+
+// setTimeout(() => {
+//     locoScroll.start();
+// }, 11000);
