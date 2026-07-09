@@ -352,7 +352,7 @@ ov.addEventListener("click", function () {
                         <div class="hs-up">
                             <h5>HEALTH SCORE</h5>
                             <h2>88</h2>
-                            <h6>Up 6 Points Fromk Last Week</h6>
+                            <h6>Up 6 Points From Last Week</h6>
                         </div>
                         <div class="hs-down">
                             <div class="hs-elem">
@@ -631,7 +631,7 @@ hospital.addEventListener("click", function () {
                                 <h3>CC</h3>
                             </div>
                             <div class="hosdes">
-                                <h3>City Care Multispecialty</h3>
+                                <h3>City Care Multi specialty</h3>
                                 <h5>0.8 km &nbsp;
                                     4.8 &nbsp;
                                     Emergency · Cardiology · Neurology</h5>
@@ -1150,7 +1150,7 @@ setting.addEventListener("click", function () {
                         <div class="settingline">
                         <div class="settingline-left">
                             <h3>Emergency alerts</h3>
-                            <h5>Always-on. Critical only.</h5>
+                            <h5>Always on. Critical only.</h5>
                         </div>
                         <div class="settingline-right">
                             <div class="on">
@@ -1410,7 +1410,7 @@ sidesos.addEventListener("click", function () {
                                         </div>
                                         <div class="condet">
                                             <h3>Maya Rivera</h3>
-                                            <h5>Family — Spouse</h5>
+                                            <h5>Spouse</h5>
                                         </div>
                                     </div>
                                     <div class="conright">
