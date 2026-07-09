@@ -291,7 +291,7 @@ var analytic = document.querySelector(".an");
 ov.addEventListener("click", function () {
   page.innerHTML = ` <div class="headings">
                     <h5>GOOD MORNING.</h5>
-                    <h3>Good morning, NAME...</h3>
+                    <h3>Good morning,Michael..</h3>
                     <h4>Your recovery score is 88% — optimized for activity.</h4>
 
                 </div>
@@ -526,10 +526,10 @@ health.addEventListener("click", function () {
                     <div class="idcard">
                         <div class="idnaam">
                             <div class="pic">
-                                <h5>AI</h5>
+                                <h5>M</h5>
                             </div>
                             <div class="det">
-                                <h1>NAME NAME</h1>
+                                <h1>Michael</h1>
                                 <h5>Member since 2024 · Profile 98% complete</h5>
                             </div>
                         </div>
@@ -537,10 +537,10 @@ health.addEventListener("click", function () {
                             <div class="specleft">
                                 <div class="specbox">
                                     <h5>FULL NAME</h5>
-                                    <h3>Name Name Name</h3>
+                                    <h3>Michael Carter</h3>
                                 </div> <div class="specbox">
                                     <h5>GENDER</h5>
-                                    <h3>Male/Female</h3>
+                                    <h3>Male</h3>
                                 </div>
                                  <div class="specbox">
                                     <h5>WEIGHT</h5>
@@ -554,7 +554,7 @@ health.addEventListener("click", function () {
                             <div class="specright">
                                   <div class="specbox">
                                     <h5>D.O.B</h5>
-                                    <h3>Apr/June 1825 ,2004/6</h3>
+                                    <h3>Jan-12-1992</h3>
                                 </div> <div class="specbox">
                                     <h5>BLOOD GROUP</h5>
                                     <h3>A+</h3>
@@ -564,8 +564,8 @@ health.addEventListener("click", function () {
                                     <h3>168 cm</h3>
                                 </div>
                                  <div class="specbox">
-                                    <h5>PRIMARY PHSICIAN</h5>
-                                    <h3>Dr. Arjun Mehta</h3>
+                                    <h5>Existing Medical Conditions</h5>
+                                    <h3>Diabetes</h3>
                                 </div>
                             </div>
                         </div>
