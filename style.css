@@ -481,7 +481,7 @@ body {
     right: 0%;
     padding: 0.2vw;
     border-radius: 0.6vw;
-    opacity: 1;
+    opacity: 0;
 
 }
 
@@ -813,6 +813,7 @@ body {
     padding: 0vw 1.4vw;
     margin-top: 0.4vw;
     font-family: montserrat;
+    opacity: 0;
 }
 
 .sign h5 {
